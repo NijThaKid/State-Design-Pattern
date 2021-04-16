@@ -1,11 +1,18 @@
 public class NetflixState implements State {
     
     private TV tv;
+    /**
+     * 
+     * @param NetflixState constructor that connects with the interface
+     */
     public NetflixState(TV tv) {
         this.tv = tv;
     }
 
     @Override
+    /**
+     * loads the home screen from netflix state
+     */
     public void pressHomeButton() {
         System.out.println("Loading the Home Screen...");
       
@@ -13,11 +20,17 @@ public class NetflixState implements State {
     }
     
     @Override
+    /**
+     * displays warning message
+     */
     public void pressNetflixButton() {
         System.out.println("We are already in Netflix");
     }
 
     @Override
+    /**
+     * loads the hulu screen from the netflix state
+     */
     public void pressHuluButton() {
 
         System.out.println("Loading Hulu...");
@@ -25,6 +38,9 @@ public class NetflixState implements State {
     }
 
     @Override
+    /**
+     * displays 5 movies from the netflix screen
+     */
     public void pressMovieButton() {
       
         
@@ -36,6 +52,9 @@ public class NetflixState implements State {
 }
 
     @Override
+    /**
+     * displays 5 tv shows from the netflix screen
+     */
     public void pressTVButton() {
 
         System.out.println("Netflix TV shows:");

@@ -2,11 +2,18 @@ public class HuluState implements State {
 
     private TV tv;
 
+    /**
+     * 
+     * @param HuluState constructor that connects with interface
+     */
     public HuluState(TV tv) {
         this.tv = tv;
     }
     
     @Override
+    /**
+     * it loads the homescreen from the Hulu State
+     */
     public void pressHomeButton() {
 
         System.out.println("Loading the Home Screen...");
@@ -14,6 +21,9 @@ public class HuluState implements State {
     }
     
     @Override
+    /**
+     * loads the netflix screen from the hulu state
+     */
     public void pressNetflixButton() {
 
         System.out.println("Loading Netflix...");
@@ -21,11 +31,17 @@ public class HuluState implements State {
     }
 
     @Override
+    /**
+     * displays the warning message 
+     */
     public void pressHuluButton() {
         System.out.println("We are already in Hulu");
     }
 
     @Override
+    /**
+     * displays 5 movies from the hulu screen
+     */
     public void pressMovieButton() {
       
         System.out.println("Hulu Movies:");
@@ -36,6 +52,9 @@ public class HuluState implements State {
 }
 
     @Override
+    /**
+     * displays 5 tv shows from the hulu screen
+     */
     public void pressTVButton() {
     
         
