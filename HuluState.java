@@ -10,14 +10,13 @@ public class HuluState implements State {
     public void pressHomeButton() {
 
         System.out.println("Loading the Home Screen...");
-        tv.setState(this);
 
     }
     
     @Override
     public void pressNetflixButton() {
 
-        System.out.println("Loading Netflix");
+        System.out.println("Loading Netflix...");
       
     }
 
@@ -30,7 +29,7 @@ public class HuluState implements State {
     public void pressMovieButton() {
       
         System.out.println("Hulu Movies:");
-        System.out.println("- Cars \n- Cinderella \n- Wall-E \n- ET");
+        System.out.println("- Gemini Man \n- Creed II \n- Maze Runner \n- Transformers \n- Little Monsters");
         tv.setState(this);
        
         
@@ -41,7 +40,7 @@ public class HuluState implements State {
     
         
         System.out.println("Hulu TV shows:");
-        System.out.println("- Sesame Street \n-Care Bears \n- Looney Tunes");
+        System.out.println("- Law and Order SVU \n- SnowFall \n- Shark Tank \n- Power \n- Good Doctor");
         tv.setState(this);
         
        

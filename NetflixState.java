@@ -7,8 +7,8 @@ public class NetflixState implements State {
 
     @Override
     public void pressHomeButton() {
-        System.out.println("Loading the Home Screen");
-        tv.setState(this);
+        System.out.println("Loading the Home Screen...");
+      
    
     }
     
@@ -29,7 +29,7 @@ public class NetflixState implements State {
       
         
         System.out.println("Netflix Movies:");
-        System.out.println("- The Land Before Time \n- Frozen \n- The Little Mermaid \n- Ice Age");
+        System.out.println("- Extraction \n- Outside the Wire \n- MoonLight \n- The Pianist \n- Saving Private Ryan");
         tv.setState(this);
        
 
@@ -39,7 +39,7 @@ public class NetflixState implements State {
     public void pressTVButton() {
 
         System.out.println("Netflix TV shows:");
-        System.out.println("- Peppa Pig \n-My Little Pony \n- Garfield \n -Teenage Mutant Ninja Turtles");
+        System.out.println("- Stranger Things \n- Last Chance U \n- Orange is the new Black \n- All American \n- Riverdale");
         tv.setState(this);
        
         
