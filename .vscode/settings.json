@@ -1,6 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\extre\\Documents\\CSCE 247\\Criminal-Database\\lib\\fabric-jolokia-7.2.0.redhat-065.jar"
-    ]
-}
